@@ -9,7 +9,7 @@ import Music from './components/Music/Music';
 import Settings from './components/Settings/Settings';
 
 import {BrowserRouter, Route, Routes} from 'react-router-dom';
-import {addPost, RootStateType} from './redux/state';
+import { RootStateType} from './redux/state';
 
 type AppPropsType = {
     state: RootStateType
@@ -20,7 +20,6 @@ type AppPropsType = {
 const App: React.FC<AppPropsType> = (props) => {
 
     return (
-
         <div className="app-wrapper">
             <Header/>
 

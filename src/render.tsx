@@ -7,6 +7,7 @@ import App from './App';
 
 import {addPost, RootStateType, updateNewPostText} from './redux/state'
 import {BrowserRouter} from "react-router-dom";
+import reportWebVitals from './reportWebVitals';
 
 export let rerenderEntireTree = (state: RootStateType) => {
     ReactDOM.render(
@@ -31,4 +32,4 @@ export let rerenderEntireTree = (state: RootStateType) => {
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-// reportWebVitals();
+reportWebVitals();
